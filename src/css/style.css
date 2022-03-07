@@ -1,0 +1,45 @@
+/* top */
+.Top {
+    background-color: #536668;
+}
+.Top p {
+    margin: 0;
+    color: #fff;
+    font-size: 0.8rem;
+}
+/* navbar */
+.nav-link{
+    font-size: 1.5rem;
+    border-bottom: 1px solid  transparent;
+}
+.nav-link:hover{
+    color: #9AC556 !important;
+    border-bottom: 1px solid  #9AC556;;
+}
+.active {
+    color: #9AC556;
+}
+/*  <Reseaux */
+.Reseaux{
+    /* position: fixed;
+    left: 0;
+    top: 0; */
+    width: 100%;
+    height: 50px;
+    background-color: #9AC556;
+    /* transform: rotate(90deg); */
+}
+/* services */
+.services{
+    width: 100% ;
+    height: 100vh;
+    background-image: url('../image/Image\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.services .leftdiv {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 37%, rgba(255, 255, 255, 0) 100%); 
+    width: 50%;
+    height: 100%;
+}

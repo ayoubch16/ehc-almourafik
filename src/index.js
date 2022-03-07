@@ -1,12 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './css/style.css';
+import Top from './components/Top';
+import NavBar from './components/NavBar';
+import Resaux from './components/Resaux';
+import Services from './components/Services';
+import Equipment from './components/Equipment';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Top />
+    <NavBar />
+    {/* <Resaux /> */}
+    <Services />
+    <Equipment />
   </React.StrictMode>,
   document.getElementById('root')
 );
