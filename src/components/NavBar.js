@@ -1,11 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Navbar, Nav, Container} from 'react-bootstrap';
+import { Navbar, Nav} from 'react-bootstrap';
 import logoehc from '../logoehc.png'
 function NavBar() {
   return (
 <div>
-    <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
-    <Container>
+    <Navbar className='mx-4' collapseOnSelect expand="lg" bg="" variant="light">
         <Navbar.Brand href="#Acceuil">
             <img width={60} height={40}
             src={logoehc} alt="Logo" />
@@ -24,7 +23,6 @@ function NavBar() {
                 <Nav.Link href="#Contact">Contact</Nav.Link>
             </Nav>
         </Navbar.Collapse>
-    </Container>
     </Navbar>
 </div>
   );

@@ -1,9 +1,8 @@
-
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 function Reseaux() {
     return (
       <div className="Reseaux">
-           <h1>Reseaux</h1>
+           <FontAwesomeIcon icon="fa-brands fa-instagram" />
       </div>
     
     );

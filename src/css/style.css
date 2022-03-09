@@ -1,3 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
 /* top */
 .Top {
     background-color: #536668;
@@ -21,25 +30,126 @@
 }
 /*  <Reseaux */
 .Reseaux{
-    /* position: fixed;
-    left: 0;
-    top: 0; */
     width: 100%;
     height: 50px;
     background-color: #9AC556;
-    /* transform: rotate(90deg); */
 }
-/* services */
-.services{
+/* annonce */
+.annonce{
     width: 100% ;
-    height: 100vh;
+    height: 80vh;
     background-image: url('../image/Image\ 1.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
-.services .leftdiv {
+.annonce .leftdiv {
     background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 37%, rgba(255, 255, 255, 0) 100%); 
+    background: linear-gradient(90deg, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 98%);
     width: 50%;
     height: 100%;
+    display: flex;
+    align-items: center;
 }
+.annonce .leftdiv h3{
+    font-size: 2vw;
+}
+.annonce .leftdiv h1{
+    font-size: 4vw;
+}
+ .btnC {
+    border-radius: 5px;
+    background-color: #9AC556;
+    border: 1px solid #9AC556;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 3vw;
+    width: 300px;
+}
+ .btnC:hover {
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #9AC556;
+    color: #9AC556;
+}
+.annonce .leftdiv span {
+    font-size: 1.5rem;
+    margin-left: 2vw;
+}
+
+.annonce .leftdiv .text {
+    text-align: justify;
+}
+/* Service */
+.service{
+    width: 100% ;
+    /* height: 80vh; */
+    padding: 2vw;
+}
+.service .listeservice {
+    /* padding: 50px;
+    box-shadow: 0px 0px 20px -10px #000000;
+    border-radius: 5px; */
+}
+.service ul li {
+    list-style: none;
+    margin: 10px 0px;
+    font-size: 1rem;
+}
+.service ul .serv::before {
+    content: "\2022";
+    color: #9AC556;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1.5rem;
+    font-size: 1.5rem;
+    margin-left: -1em;
+  }
+.service ul li span div {
+    background-color: #9AC556;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+.service .mini-img {
+    position: relative;
+    top: -100px;
+    left: 30px;
+}
+
+/* Rendez-vouz */
+.rightdiv{
+    /* border: 1px solid #000; */
+    padding: 50px;
+    box-shadow: 0px 0px 20px -10px #000000;
+    border-radius: 5px;
+
+}
+.rightdiv .row{
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px -10px #000000;
+    margin-bottom: 50px ;
+
+}
+.rightdiv .icone{
+    width: 50px;
+    height: 50px;
+    background-color: #EFEFEF;
+    border-radius: 50%;
+    padding: 10px;
+}
+.rightdiv input[type='text']{
+    width: 100%;
+    height: 60px;
+    border: none;
+}
+/* temoignage */
+.temoignage{
+    background-color: #536668;
+}
+
+.temoignage .SwiperSlide{
+        width: 300px;
+        height: 300px;
+}
+
