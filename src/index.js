@@ -16,9 +16,9 @@ ReactDOM.render(
     <NavBar />
     <Annonce />
     <Services />
+    <Equipment />
     <Rendez />
     <Temoignage />
-    <Equipment />
   </React.StrictMode>,
   document.getElementById('root')
 );

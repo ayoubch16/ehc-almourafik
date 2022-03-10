@@ -10,34 +10,54 @@ import "swiper/css/navigation";
 // import required modules
 import { Pagination, Navigation } from "swiper";
 
+import { Row, Col,Container} from 'react-bootstrap';
+
+import Commentaire from '../components/Commentaire';
 
 function Temoignage() {
   return (
-    <div className='temoignage'>
-         <Swiper
+    <div className='temoignage bg-light'>
+      <Container>
+        <Row>
+          <Col><h1>Témoignage</h1></Col>
+          {/* <Col className="text-end">
+            <div className="mx-2 swiper-button-prev"></div>
+            <div className="mx-2 swiper-button-next"></div>
+          </Col> */}
+        </Row>
+      </Container>
+      
+        <Swiper
         slidesPerView={3}
-        spaceBetween={30}
-        slidesPerGroup={3}
+        spaceBetween={20}
+        slidesPerGroup={2}
         loop={true}
         loopFillGroupWithBlank={true}
         pagination={{
           clickable: true,
         }}
-        navigation={true}
-        modules={[Pagination, Navigation]}
+        modules={[ Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide>
+          <Commentaire />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Commentaire />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Commentaire />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Commentaire />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Commentaire />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Commentaire />
+        </SwiperSlide>
       </Swiper>
-
     </div>
   );
 }

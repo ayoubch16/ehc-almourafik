@@ -144,12 +144,46 @@
     border: none;
 }
 /* temoignage */
-.temoignage{
+.temoignage {
     background-color: #536668;
+    margin-top: 4rem;
+}
+.temoignage .swiper-button-next , .temoignage .swiper-button-prev{
+    display: contents !important;
+    color: #9AC556;
 }
 
-.temoignage .SwiperSlide{
-        width: 300px;
-        height: 300px;
+.temoignage .mySwiper{
+    display: flex;
 }
+
+.temoignage .commantaire{
+    
+       margin: 10px;
+       padding: 10px;
+       box-shadow: 5px 5px 15px -10px #000000;
+       border-radius: 5px;
+}
+.temoignage .commantaire .img-client {
+    border-radius: 50%;
+    width: 100%;
+    height: 80%;
+}
+.temoignage .commantaire h5 ,.temoignage .commantaire h3 {
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+
+.temoignage .commantaire p {
+    font-size: 0.8vw;
+    font-weight: normal;
+}
+.temoignage .commantaire span svg{
+    color: #FFC207;
+    font-size: 1.5vw;
+}
+.swiper-slide{
+    min-width: 200px !important;
+}
+
 
