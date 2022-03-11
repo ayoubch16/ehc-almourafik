@@ -7,7 +7,7 @@ function Services() {
   return (
     <div className='service' >
       <Container>
-      <h3><b>Service</b> EHC AL MOURAFIK</h3>
+      <h3 className='title'><b>Service</b> EHC AL MOURAFIK</h3>
       <Row>
         <Col>
             <img className='img-fluid' src={image1}  />

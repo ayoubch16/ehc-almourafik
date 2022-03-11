@@ -18,10 +18,12 @@ function Annonce() {
         
             <div className='leftdiv'>
                 <div>
-                    <h3>Consultation,</h3>
-                    <h1>hospitalisation <br></br> à domicile</h1>
+                    <h3>Consultation,&#38;</h3>
+                    <h1><b>hospitalisation</b> <br></br> <b>à domicile</b></h1>
                     <p className='text'>
-                    MEDECIN ASSISTANCE URGENCE INTERNATIONALE , leader des urgences a domicile partout au Maroc. nous couverons tout le Maroc  avec nos équipe sur chaque ville ou a travers nos partenaire
+                    MEDECIN ASSISTANCE URGENCE INTERNATIONALE ,<br></br>
+                     leader des urgences a domicile partout au Maroc.<br></br>
+                      nous couverons tout le Maroc  avec nos équipe sur chaque ville ou a travers nos partenaire
                     </p>
                     <a className='btnC' >Contactez-nous</a><span>24/24 h</span>
                 </div>

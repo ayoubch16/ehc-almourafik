@@ -6,7 +6,8 @@ function Equipment() {
   return (
     <div className='service' >
       <Container>
-      <h3><b>Equipment </b> EHC AL MOURAFIK</h3>
+      <h3 className='title'><b>Equipment </b> EHC AL MOURAFIK</h3>
+
       <Row>
         <Col>
           <div>

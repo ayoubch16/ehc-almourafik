@@ -9,6 +9,9 @@ import Equipment from './components/Equipment';
 import reportWebVitals from './reportWebVitals';
 import Rendez from './components/Rendez';
 import Temoignage from './components/Temoignage';
+import Partenariat from './components/Partenariat';
+import Copyright from './components/Copyright';
+import Footer from './components/Footer';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -19,6 +22,9 @@ ReactDOM.render(
     <Equipment />
     <Rendez />
     <Temoignage />
+    <Partenariat />
+    <Footer />
+    <Copyright />
   </React.StrictMode>,
   document.getElementById('root')
 );

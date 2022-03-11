@@ -18,7 +18,7 @@
 }
 /* navbar */
 .nav-link{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     border-bottom: 1px solid  transparent;
 }
 .nav-link:hover{
@@ -28,7 +28,7 @@
 .active {
     color: #9AC556;
 }
-/*  <Reseaux */
+/*  Reseaux */
 .Reseaux{
     width: 100%;
     height: 50px;
@@ -51,12 +51,18 @@
     align-items: center;
 }
 .annonce .leftdiv h3{
-    font-size: 2vw;
+    font-size: 3vw;
 }
 .annonce .leftdiv h1{
     font-size: 4vw;
 }
- .btnC {
+.annonce .leftdiv p {
+    font-size: 1.5vw;
+}
+.annonce .row{
+    --bs-gutter-x: 0;
+}
+.btnC {
     border-radius: 5px;
     background-color: #9AC556;
     border: 1px solid #9AC556;
@@ -64,6 +70,7 @@
     text-decoration: none;
     padding: 5px 3vw;
     width: 300px;
+    font-size: 2vw;
 }
  .btnC:hover {
     cursor: pointer;
@@ -72,7 +79,7 @@
     color: #9AC556;
 }
 .annonce .leftdiv span {
-    font-size: 1.5rem;
+    font-size: 2vw;
     margin-left: 2vw;
 }
 
@@ -185,5 +192,55 @@
 .swiper-slide{
     min-width: 200px !important;
 }
+/* partenariat */
+.partenariat{
+    margin-top: 100px;
+    padding: 5px;
+}
+.partenariat .row {
+    display: flex;
+    align-items: center;
+}
+.img-colab{
+    filter: brightness(0%);
+}
+.img-colab:hover{
+    filter: none;
+}
 
+/* Copyright */
+.Copyright{
+    background-color: #9AC556;
+}
+.Copyright p{
+    margin: 0 !important;
+    color: #fff;
+}
+.Copyright p a{
+    color: #fff;
+    text-decoration: none;
+}
+.Copyright p a:hover{
+    color: #536668;
+}
+.title {
+    margin-bottom: 50px;
+}
+/* footer */
+footer .text {
+    font-size: 1vw;
+}
+footer .list-unstyled li a {
+    color: #000;
+    text-decoration: none;
+    text-align: left;
+}
+
+/* version telephone */
+@media screen and (max-width: 600px) {
+    .btnC {
+        width: 200px;
+        font-size: 2vw;
+    }
+  }
 
