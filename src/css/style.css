@@ -14,7 +14,7 @@
 .Top p {
     margin: 0;
     color: #fff;
-    font-size: 0.8rem;
+    font-size: 1.5vw;
 }
 /* navbar */
 .nav-link{
@@ -38,7 +38,7 @@
 .annonce{
     width: 100% ;
     height: 80vh;
-    background-image: url('../image/Image\ 1.png');
+    background-image: url('../image/Image1.webp');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -59,8 +59,8 @@
 .annonce .leftdiv p {
     font-size: 1.5vw;
 }
-.annonce .row{
-    --bs-gutter-x: 0;
+.divannonce{
+    --bs-gutter-x: 0 !important;
 }
 .btnC {
     border-radius: 5px;
@@ -71,6 +71,7 @@
     padding: 5px 3vw;
     width: 300px;
     font-size: 2vw;
+    text-align: center;
 }
  .btnC:hover {
     cursor: pointer;
@@ -99,16 +100,15 @@
 }
 .service ul li {
     list-style: none;
-    margin: 10px 0px;
-    font-size: 1rem;
+    font-size: 1.5vw;
 }
 .service ul .serv::before {
     content: "\2022";
     color: #9AC556;
     font-weight: bold;
     display: inline-block; 
-    width: 1.5rem;
-    font-size: 1.5rem;
+    width: 1.5vw;
+    font-size: 1.5vw;
     margin-left: -1em;
   }
 .service ul li span div {
@@ -117,33 +117,67 @@
     width: 10px;
     height: 10px;
 }
+.service .grand-img{
+    height: 500px;
+    width: auto;
+}
 .service .mini-img {
     position: relative;
     top: -100px;
     left: 30px;
 }
-
+/* equipement */
+.equipement{
+    width: 100% ;
+    /* height: 80vh; */
+    padding: 2vw;
+}
+.equipement h4 {
+    font-size: 2vw;
+}
+.equipement p {
+    font-size: 1vw;
+}
+.equipement .swiper-pagination {
+    bottom: -5px !important;
+}
 /* Rendez-vouz */
+.rendez-vouz{
+    margin: 50px 0px;
+}
+.rendez-vouz .img-rendez {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rendez-vouz .img-rendez img{
+    height: 500px;
+    width: auto;
+}
 .rightdiv{
     /* border: 1px solid #000; */
-    padding: 50px;
+    padding: 30px;
     box-shadow: 0px 0px 20px -10px #000000;
     border-radius: 5px;
-
+}
+.rightdiv h3 {
+    font-size: 2vw;
 }
 .rightdiv .row{
-    padding: 10px;
-    border-radius: 10px;
+    padding: 5px;
+    border-radius: 5px;
     box-shadow: 5px 5px 15px -10px #000000;
-    margin-bottom: 50px ;
-
+    margin-bottom: 10px ;
+}
+.rightdiv form h5 {
+    font-size: 1.5vw;
 }
 .rightdiv .icone{
-    width: 50px;
-    height: 50px;
+    width: 4vw;
+    height: 4vw;
     background-color: #EFEFEF;
     border-radius: 50%;
-    padding: 10px;
+    padding: 5px;
 }
 .rightdiv input[type='text']{
     width: 100%;
@@ -226,6 +260,12 @@
 .title {
     margin-bottom: 50px;
 }
+.title::after{
+    content: '';
+    width: 100px;
+    height: 50px;
+    background-color: #9AC556;
+}
 /* footer */
 footer .text {
     font-size: 1vw;
@@ -238,9 +278,36 @@ footer .list-unstyled li a {
 
 /* version telephone */
 @media screen and (max-width: 600px) {
+    .annonce{
+        height: 50vh;
+    }
     .btnC {
         width: 200px;
         font-size: 2vw;
+    }
+    .service .grand-img{
+        height: 200px;
+        width: auto;
+    }
+    .rendez-vouz .img-rendez img{
+        height: 200px;
+        width: auto;
+    }
+    .rightdiv .icone{
+        width: 6vw;
+        height:6vw;
+        background-color: #EFEFEF;
+        border-radius: 50%;
+        padding: 5px;
+    }
+    .service .mini-img {
+        top: -40px;
+        left: 60px;
+        width: 80px;
+        height: 80px;
+    }
+    .rightdiv input[type='text']{
+        height: 30px;
     }
   }
 

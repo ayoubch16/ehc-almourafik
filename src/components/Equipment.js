@@ -1,28 +1,43 @@
 import { Row, Col,Container} from 'react-bootstrap';
-import equipement from '../image/equipement.png'
+
+import React, { useRef, useState } from "react";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+
+// import required modules
+import { Pagination } from "swiper";
+
+import SwiperEquipement from './SwiperEquipement';
+
+import scanner from '../image/scanner.webp'
 
 
 function Equipment() {
   return (
-    <div className='service' >
+    <div className='equipement' >
       <Container>
-      <h3 className='title'><b>Equipment </b> EHC AL MOURAFIK</h3>
-
-      <Row>
-        <Col>
-          <div>
-                <h3>Le lorem ipsum est, en imprimerie</h3>
-                <p>
-                Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page,
-                 le texte définitif venant remplacer le faux-texte dès qu'il est prêt ou que la mise en page est achevée. Généralement, 
-                 on utilise un texte en faux latin, le Lorem ipsum ou Lipsum
-                </p>
-          </div>
-        </Col>
-        <Col>
-            <img className='img-fluid' src={equipement}  />
-        </Col>
-      </Row>
+        <h3 className='title'><b>Equipment </b> EHC AL MOURAFIK</h3>
+        <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
+          <SwiperSlide>
+            <SwiperEquipement title='material 1' description='description 1' image='scanner' />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SwiperEquipement title='material 2' description='description 2' image='scanner' />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SwiperEquipement title='material 3' description='description 3' image='scanner' />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SwiperEquipement title='material 4' description='description 4' image='scanner' />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SwiperEquipement title='material 5' description='description 5' image='scanner' />
+          </SwiperSlide>
+        </Swiper>
       </Container>
     </div>
   );

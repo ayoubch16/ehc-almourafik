@@ -1,9 +1,9 @@
 import { Row, Col,Container} from 'react-bootstrap';
-import cnss from '../image/cnss.png'
-import rma from '../image/rma.png'
-import saham from '../image/saham.png'
-import sante from '../image/sante.png'
-import wafasalf from '../image/wafasalf.png'
+import cnss from '../image/cnss.webp'
+import rma from '../image/rma.webp'
+import saham from '../image/saham.webp'
+import sante from '../image/sante.webp'
+import wafasalf from '../image/wafasalf.webp'
 
 
 

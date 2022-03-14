@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container} from 'react-bootstrap';
 
-import logo from '../logoehc.png'
+import logo from '../logoehc.webp'
 function Copyright() {
   return (
 <footer className="page-footer font-small blue pt-4">

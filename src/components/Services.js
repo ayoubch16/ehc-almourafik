@@ -1,6 +1,6 @@
 import { Row, Col,Container} from 'react-bootstrap';
-import image1 from '../image/image-2.png'
-import image2 from '../image/image-3.png'
+import image1 from '../image/image-2.webp'
+import image2 from '../image/image-3.webp'
 
 
 function Services() {
@@ -10,7 +10,7 @@ function Services() {
       <h3 className='title'><b>Service</b> EHC AL MOURAFIK</h3>
       <Row>
         <Col>
-            <img className='img-fluid' src={image1}  />
+            <img className='grand-img' src={image1}  />
             <img className='mini-img' src={image2} width={200} height={200} />
           </Col>
         <Col>

@@ -9,11 +9,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Annonce() {
   return (
-    <Row>
+    <Row className='divannonce'>
         <Col xs={1}>
             <p>insta</p>
         </Col>
-        <Col>
+        <Col >
         <div className='annonce'>
         
             <div className='leftdiv'>

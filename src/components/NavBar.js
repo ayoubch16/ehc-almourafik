@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Nav} from 'react-bootstrap';
-import logoehc from '../logoehc.png'
+import logoehc from '../logoehc.webp'
 function NavBar() {
   return (
 <div>
