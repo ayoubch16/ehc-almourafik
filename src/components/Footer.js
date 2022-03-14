@@ -22,7 +22,7 @@ function Copyright() {
 
             <hr className="clearfix w-100 d-md-none pb-0"/>
 
-            <div className="col-md-3 mb-md-0 mb-3">
+            <div className="col-md-3 mb-md-0 mb-3 pt-5 ">
                 <h5 className="text-uppercase mb-3" style={{textAlign:'left'}} >Quick links</h5>
                 <ul className="list-unstyled">
                     <li><a href="#!">Legal Notice</a></li>
@@ -30,7 +30,7 @@ function Copyright() {
                 </ul>
             </div>
 
-            <div className="col-md-3 mb-md-0 mb-3">
+            <div className="col-md-3 mb-md-0 mb-3 pt-5">
                 <h5 className="text-uppercase mb-3" style={{textAlign:'left'}}>Contact us</h5>
                 <ul className="list-unstyled">
                     <li><a href="#!">05 00 000 000</a></li>

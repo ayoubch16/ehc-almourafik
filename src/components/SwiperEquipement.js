@@ -8,7 +8,9 @@ import equipement from '../image/equipement.webp'
 function SwiperEquipement(props) {
   const title=props.title;
   const description=props.description;
-  const imageE=props.imageE;
+  // const imageE=props.imageE;
+  const image=props.image;
+
 
 return (
       <Row>
@@ -21,7 +23,7 @@ return (
           </div>
         </Col>
         <Col>
-            <img className='img-fluid' src={equipement}  />
+            <img className='img-fluid' src={image}  />
         </Col>
       </Row>
 );
