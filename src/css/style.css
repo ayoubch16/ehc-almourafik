@@ -242,9 +242,23 @@
     filter: none;
 }
 
+
+/* footer */
+footer .text {
+    font-size: 1vw;
+}
+footer .list-unstyled{
+    text-align: left;
+}
+footer .list-unstyled li a {
+    color: #000;
+    text-decoration: none;
+    text-align: left;
+}
 /* Copyright */
 .Copyright{
     background-color: #9AC556;
+  
 }
 .Copyright p{
     margin: 0 !important;
@@ -266,17 +280,16 @@
     height: 50px;
     background-color: #9AC556;
 }
-/* footer */
-footer .text {
-    font-size: 1vw;
+.comming{
+    height: 100%;
 }
-footer .list-unstyled{
-    text-align: left;
+.comming .text-comming{
+    color: #9ac556;
+    font-size: 5vw;
 }
-footer .list-unstyled li a {
-    color: #000;
-    text-decoration: none;
-    text-align: left;
+.comming .img-404{
+    max-width: 25rem;
+    margin-bottom: 5vh;
 }
 
 /* version telephone */

@@ -12,18 +12,20 @@ import Temoignage from './components/Temoignage';
 import Partenariat from './components/Partenariat';
 import Copyright from './components/Copyright';
 import Footer from './components/Footer';
+import Comming from './components/Comming';
 
 ReactDOM.render(
   <React.StrictMode>
     <Top />
     <NavBar />
-    <Annonce />
+    <Comming />
+    {/* <Annonce />
     <Services />
     <Equipment />
     <Rendez />
     <Temoignage />
-    <Partenariat />
-    <Footer />
+    <Partenariat /> */}
+    {/* <Footer /> */}
     <Copyright />
   </React.StrictMode>,
   document.getElementById('root')

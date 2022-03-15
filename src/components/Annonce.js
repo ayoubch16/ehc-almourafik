@@ -15,7 +15,6 @@ function Annonce() {
         </Col>
         <Col >
         <div className='annonce'>
-        
             <div className='leftdiv'>
                 <div>
                     <h3>Consultation,&#38;</h3>
