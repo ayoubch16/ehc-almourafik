@@ -280,6 +280,9 @@ footer .list-unstyled li a {
     height: 50px;
     background-color: #9AC556;
 }
+.RefInfo{
+    display: none;
+}
 .comming{
     height: 100%;
 }

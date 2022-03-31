@@ -18,14 +18,14 @@ ReactDOM.render(
   <React.StrictMode>
     <Top />
     <NavBar />
-    <Comming />
-    {/* <Annonce />
+    {/* <Comming /> */}
+    <Annonce />
     <Services />
     <Equipment />
     <Rendez />
     <Temoignage />
-    <Partenariat /> */}
-    {/* <Footer /> */}
+    <Partenariat />
+    <Footer />
     <Copyright />
   </React.StrictMode>,
   document.getElementById('root')

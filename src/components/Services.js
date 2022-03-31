@@ -5,7 +5,7 @@ import image2 from '../image/image-3.webp'
 
 function Services() {
   return (
-    <div className='service' >
+    <div id='Service' className='service' >
       <Container>
       <h3 className='title'><b>Service</b> EHC AL MOURAFIK</h3>
       <Row>

@@ -11,7 +11,7 @@ import wafasalf from '../image/wafasalf.webp'
 
 function Partenariat () {
   return (
-    <div className='partenariat'>
+    <div id='Partenariat' className='partenariat'>
       <Container>
       <h3 className='title'><b>Partenariat  </b> EHC AL MOURAFIK</h3>
 

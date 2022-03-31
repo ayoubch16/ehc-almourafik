@@ -5,7 +5,7 @@ function NavBar() {
   return (
 <div>
     <Navbar className='mx-4' collapseOnSelect expand="lg" bg="" variant="light">
-        <Navbar.Brand href="#Acceuil">
+        <Navbar.Brand href="#root">
             <img width={60} height={40}
             src={logoehc} alt="Logo" />
         </Navbar.Brand>
