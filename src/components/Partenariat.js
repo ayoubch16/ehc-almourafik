@@ -13,7 +13,7 @@ function Partenariat () {
   return (
     <div id='Partenariat' className='partenariat'>
       <Container>
-      <h3 className='title'><b>Partenariat  </b> EHC AL MOURAFIK</h3>
+      <h3 className='title'><b>Partenariats  </b> EHC AL MOURAFIK</h3>
 
       <Row>
         <Col>

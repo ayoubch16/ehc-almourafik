@@ -7,7 +7,7 @@ function Services() {
   return (
     <div id='Service' className='service' >
       <Container>
-      <h3 className='title'><b>Service</b> EHC AL MOURAFIK</h3>
+      <h3 className='title'><b>Services</b> EHC AL MOURAFIK</h3>
       <Row>
         <Col>
             <img className='grand-img' src={image1}  />
@@ -18,17 +18,21 @@ function Services() {
             <ul className='listeservice'>
                 <li className='serv'><b>Consultations à domicile:</b> </li>
                     <ul className='sous-service'>
-                        <li>-  Généralistes</li>
+                        <li>-  Gériatre</li>
                         <li>-  Spécialistes</li>
                     </ul>
                 <li className='serv'><b>Diagnostique à domicile :</b></li>
                     <ul className='sous-service'>
-                        <li>- ECG</li>
-                        <li>- ECO- Graphe</li>
-                        <li>- prélévements biologique</li>
+                        <li>- Eléctro-Cardiogramme</li>
+                        <li>-  ECO-Gardiographie </li>
+                        <li>- Prélévements biologiques</li>
                     </ul>
                 <li className='serv'><b>Hospitalisation à domicile</b> </li>
-                <li className='serv'><b>Prise en charge des sujets âgés, et AMR</b></li>
+                <ul className='sous-service'> 
+                      <li>- Installation du matériel d’hospitalisation sur mesures </li>
+                      <li>- Mobilisation d’équipe médicale personnalisée H24</li>
+                    </ul>
+                <li className='serv'><b>Prise en charge des sujets âgés, et personnes A Mobilité Réduite (AMR)</b></li>
                     <ul className='sous-service'> 
                       <li>- consultation multidisciplinaire </li>
                       <li>- hospitalisation à domicile adaptée AMR</li>
@@ -36,7 +40,7 @@ function Services() {
                     </ul>
                 <li className='serv'><b>Cabinet Dr SEFIANE BENBRIK de gériatrie et diabétologie:</b></li>
                     <ul className='sous-service'>
-                        <li>- Consiltation et examen sur place</li>
+                        <li>- Consultations et examens médicaux</li>
                     </ul>
               </ul>
               <a className='btnC'>Contact us</a>

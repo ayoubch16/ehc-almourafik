@@ -17,9 +17,10 @@ function NavBar() {
                     {textAlign:"center"}
                 }>
                 <Nav.Link href="#Acceuil">Acceuil</Nav.Link>
-                <Nav.Link href="#Service">Service</Nav.Link>
-                <Nav.Link href="#Partenariat">Partenariat</Nav.Link>
+                <Nav.Link href="#Service">Services</Nav.Link>
+                {/* <Nav.Link href="#Partenariat">Partenariat</Nav.Link> */}
                 <Nav.Link href="#Recrutement">Recrutement</Nav.Link>
+                <Nav.Link href="#apropos">A Propos</Nav.Link>
                 <Nav.Link href="#Contact">Contact</Nav.Link>
             </Nav>
         </Navbar.Collapse>

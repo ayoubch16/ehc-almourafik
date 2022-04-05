@@ -25,7 +25,7 @@ function Annonce() {
                     à votre domicile ou aux locaux professionnels, grâce à notre équipe polyvalente et 
                     qualifiée sur toutes les spécialités médicales, et équipée du matériel de dernière génération.
                     </p>
-                    <a className='btnC' >Contactez-nous</a><span>24/24 h</span>
+                    <a href='#footer' className='btnC' >Contactez-nous</a><span>24/24 h</span>
                 </div>
             </div>
         </div>

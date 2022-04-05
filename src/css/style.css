@@ -23,10 +23,12 @@
 }
 .nav-link:hover{
     color: #9AC556 !important;
-    border-bottom: 1px solid  #9AC556;;
+    border-bottom: 1px solid  #9AC556;
 }
 .active {
-    color: #9AC556;
+    color: #9AC556 !important;
+    border-bottom: 1px solid  #9AC556;
+
 }
 /*  Reseaux */
 .Reseaux{
@@ -273,6 +275,8 @@ footer .list-unstyled li a {
 }
 .title {
     margin-bottom: 50px;
+    color: #9AC556;
+    border-bottom: 1px solid #9AC556;
 }
 .title::after{
     content: '';

@@ -23,7 +23,7 @@ function Temoignage() {
     <div className='temoignage bg-light'>
       <Container>
         <Row>
-          <Col><h3 className="title">Témoignage</h3></Col>
+          <Col><h3 className="title"><b>Expériences clients</b> EHC AL MOURAFIK </h3></Col>
         </Row>
       </Container>
       
