@@ -7,12 +7,13 @@ import Annonce from './components/Annonce';
 import Services from './components/Services';
 import Equipment from './components/Equipment';
 import reportWebVitals from './reportWebVitals';
-import Rendez from './components/Rendez';
 import Temoignage from './components/Temoignage';
 import Partenariat from './components/Partenariat';
 import Copyright from './components/Copyright';
 import Footer from './components/Footer';
 import Comming from './components/Comming';
+import Contact from './components/Contact';
+import Offres from './components/Offres';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -21,10 +22,11 @@ ReactDOM.render(
     {/* <Comming /> */}
     <Annonce />
     <Services />
-    <Equipment />
-    <Rendez />
+    {/* <Equipment /> */}
+    <Offres/>
     <Temoignage />
     <Partenariat />
+    <Contact/>
     <Footer />
     <Copyright />
   </React.StrictMode>,
