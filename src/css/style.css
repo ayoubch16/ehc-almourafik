@@ -335,5 +335,8 @@ footer .list-unstyled li a {
     footer .text {
         font-size: 2vw;
     }
+    .title {
+        text-align: center;
+    }
   }
 
