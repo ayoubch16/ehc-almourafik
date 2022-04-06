@@ -30,6 +30,13 @@
     border-bottom: 1px solid  #9AC556;
 
 }
+#positionNav{
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 99;
+}
 /*  Reseaux */
 .Reseaux{
     width: 100%;
@@ -274,6 +281,7 @@ footer .list-unstyled li a {
     color: #536668;
 }
 .title {
+    margin-top: 50px;
     margin-bottom: 50px;
     color: #9AC556;
     border-bottom: 1px solid #9AC556;

@@ -1,5 +1,7 @@
 import { Form, Button,Container,Row,Col,InputGroup,FloatingLabel} from 'react-bootstrap';
 import React, { useEffect, useState } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPhone } from '@fortawesome/free-solid-svg-icons'
 
 function Contact() {
     const [validated, setValidated] = useState(false);
@@ -14,7 +16,7 @@ function Contact() {
       setValidated(true);
     };
     return (
-        <Container>
+        <Container className='mb-5'>
         <h3 className='title'><b>Contact &#38; RDV </b> EHC AL MOURAFIK</h3>
             <Form id='Contact' noValidate validated={validated} onSubmit={handleSubmit}>
                 <Row className='mb-3'>
@@ -83,15 +85,15 @@ function Contact() {
                 <Form.Group className="mb-3">
                     <Form.Check
                     required
-                    label="Agree to terms and conditions"
-                    feedback="You must agree before submitting."
+                    label="Accepter les Conditions Générales de EHC ALMOURAFIK. "
+                    feedback="Vous Devez Accepter Avant De Envoyer Les Informations ."
                     feedbackType="invalid"
                     />
                 </Form.Group>
                 {/* <Button className='btnC' type="submit">Submit form</Button> */}
                 {/* <Button variant="outline-primary"  type="submit">Primary</Button> */}
                 <input className='btnC mx-1' type='submit' value='Envoyer' />
-                <a className='btnC mx-1' href='tel:0710313000'>Appler</a>
+                <a className='btnC mx-1' href='tel:0710313000'><FontAwesomeIcon icon={faPhone} /> Appler</a>
             </Form>
         </Container>
     );

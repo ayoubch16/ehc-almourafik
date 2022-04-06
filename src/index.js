@@ -14,6 +14,7 @@ import Footer from './components/Footer';
 import Comming from './components/Comming';
 import Contact from './components/Contact';
 import Offres from './components/Offres';
+import Apropos from './components/Apropos';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -25,7 +26,8 @@ ReactDOM.render(
     {/* <Equipment /> */}
     <Offres/>
     <Temoignage />
-    <Partenariat />
+    <Apropos />
+    {/* <Partenariat /> */}
     <Contact/>
     <Footer />
     <Copyright />

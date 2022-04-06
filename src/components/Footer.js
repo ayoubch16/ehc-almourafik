@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container} from 'react-bootstrap';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPhone,faAt } from '@fortawesome/free-solid-svg-icons'
 import logo from '../logoehc.webp'
 function Copyright() {
   return (
@@ -33,8 +34,8 @@ function Copyright() {
             <div className="col-md-3 mb-md-0 mb-3 pt-5">
                 <h5 className="text-uppercase mb-3" style={{textAlign:'left'}}>Contact us</h5>
                 <ul className="list-unstyled">
-                    <li><a href="#!">05 00 000 000</a></li>
-                    <li><a href="#!">contact@COMPAGNIONSHIP.com</a></li>
+                    <li><a href="#!"><FontAwesomeIcon icon={faPhone} /> 05 00 000 000</a></li>
+                    <li><a href="#!"><FontAwesomeIcon icon={faAt} /> contact@.ehc-almourafik.ma</a></li>
                 </ul>
             </div>
         </div>
