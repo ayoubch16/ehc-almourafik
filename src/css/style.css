@@ -53,7 +53,7 @@
 }
 .annonce .leftdiv {
     background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 98%);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 60%, rgba(255,255,255,0) 98%);
     width: 50%;
     height: 100%;
     display: flex;
@@ -152,6 +152,7 @@
 }
 .equipement .swiper-pagination {
     bottom: -5px !important;
+    background-color: #fff;
 }
 /* Rendez-vouz */
 .rendez-vouz{

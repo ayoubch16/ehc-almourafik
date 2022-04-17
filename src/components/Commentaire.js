@@ -3,7 +3,7 @@
 // import Resaux from './components/Resaux';
 
   import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-  import { faStar } from '@fortawesome/free-solid-svg-icons'
+  import { faStar,faStarHalfStroke } from '@fortawesome/free-solid-svg-icons'
 
 
 function Commentaire(props) {
@@ -29,7 +29,7 @@ function Commentaire(props) {
             <FontAwesomeIcon icon={faStar} />
             <FontAwesomeIcon icon={faStar} />
             <FontAwesomeIcon icon={faStar} />
-            <FontAwesomeIcon icon={faStar} />
+            <FontAwesomeIcon icon={faStarHalfStroke} />
             
             </span>
         </Col>
