@@ -8,6 +8,7 @@ function Apropos() {
   return (
       <Container id="Apropos">
             <h3 className='title'><b>A Propos </b> EHC AL MOURAFIK</h3>
+            <h3 className='title'><b>Équipe </b> EHC AL MOURAFIK</h3>
             <Row xs={1} sm={2} md={3} lg={4}  className="text-center g-4">
                     <Col>
                         <Card>

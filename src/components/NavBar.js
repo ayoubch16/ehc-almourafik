@@ -16,7 +16,7 @@ function NavBar() {
   return (
     <div id='positionNav'>
         <Navbar   className='mx-4' collapseOnSelect expand="lg" bg="" variant="light">
-            <Navbar.Brand href="#root">
+            <Navbar.Brand href="#Top">
                 <img width={60} height={40}
                 src={logoehc} alt="Logo" />
             </Navbar.Brand>

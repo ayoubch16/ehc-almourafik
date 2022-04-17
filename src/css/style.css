@@ -142,10 +142,13 @@
     padding: 2vw;
 }
 .equipement h4 {
-    font-size: 3vw;
+    font-size: 2vw;
+}
+.equipement h5 {
+    font-size: 1.5vw;
 }
 .equipement p {
-    font-size: 2vw;
+    font-size: 1vw;
 }
 .equipement .swiper-pagination {
     bottom: -5px !important;
@@ -345,6 +348,9 @@ footer .list-unstyled li a {
     }
     .title {
         text-align: center;
+    }
+    .mini-img{
+        display: none;
     }
   }
 

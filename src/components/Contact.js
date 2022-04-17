@@ -16,9 +16,9 @@ function Contact() {
       setValidated(true);
     };
     return (
-        <Container className='mb-5'>
+        <Container id='Contact' className='my-3 py-3'>
         <h3 className='title'><b>Contact &#38; RDV </b> EHC AL MOURAFIK</h3>
-            <Form id='Contact' noValidate validated={validated} onSubmit={handleSubmit}>
+            <Form  noValidate validated={validated} onSubmit={handleSubmit}>
                 <Row className='mb-3'>
                     <Col>
                             <Form.Group as={Col}  controlId="validationCustom01">
